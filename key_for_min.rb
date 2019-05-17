@@ -8,4 +8,7 @@ def key_for_min_value(name_hash)
       return nil
     elsif name_hash[key] < min
       min = name_hash[key]
+    end
+  end
+  min
 end
